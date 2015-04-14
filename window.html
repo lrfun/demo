@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>window对象</title>
+<script type="text/javascript">
+function doc()
+{
+    var Windows=confirm("是否打开窗口？");
+    if (Windows==true){
+    window.open("http://www.jd.com/?utm_source=p.yiqifa.com&utm_medium=tuiguang&utm_campaign=t_1_697083&utm_term=188ba4afe6bc43d6894c60773aa5950a","width=600px,height=400px");}
+    else
+    {
+        return;
+    }
+}
+
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="点击我，打开新窗口" onclick="doc()" />
+</form>
+</body>
+</html>
